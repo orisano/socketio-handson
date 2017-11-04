@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "serve:sio": "node socketio.js",
+    "serve:eio": "node engineio.js",
+    "conn:sio": "wscat --connect 'http://localhost:8080/socket.io/?EIO=3&transport=websocket'",
+    "conn:eio": "wscat --connect 'http://localhost:8080/engine.io/?EIO=3&transport=websocket'"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.4",
+    "wscat": "^2.0.1"
+  }
+}
