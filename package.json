@@ -7,7 +7,7 @@
     "conn:eio": "wscat --connect 'http://localhost:8080/engine.io/?EIO=3&transport=websocket'"
   },
   "dependencies": {
-    "socket.io": "^2.4.0",
+    "socket.io": "^2.5.0",
     "wscat": "^2.0.1"
   }
 }
